@@ -19,12 +19,11 @@ jobs:
       - run: git submodule update --init --recursive
 
       # create dist dir
-      - run: mkdir -p artifacts/public
+      - run: mkdir artifacts
       # - run: echo "${{ secrets.MASTER_DEPLOY_ENV }}" | tr -d '\r' > artifacts/.env
       - run: cp .environment/docs.devi.tools/docker-compose.yml artifacts/docker-compose.yml
 
-      # build quasar app
-      - run: export BUILD_ENV="production"
+      # build docs
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -32,10 +31,9 @@ jobs:
       - run: npm install -g yarn
       - name: Run yarn install, build
         run: |
-          cd quasar
           yarn
           yarn build
-      - run: cp -r docs/.vuepress/dist/* artifacts/public
+      - run: cp -r docs/.vuepress/dist artifacts/public
 
       # get infra stuffs
       - run: cp -r .tevun artifacts/.tevun
