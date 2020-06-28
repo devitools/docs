@@ -7,7 +7,7 @@ networks:
 
 services:
   docs.devi.tools:
-    image: webdevops/nginx:7.3
+    image: webdevops/nginx
     container_name: docs.devi.tools
     restart: always
     networks:
