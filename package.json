@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/devitools/docs",
   "scripts": {
-    "dev": "vuepress dev docs --no-cache",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "license": "MIT",

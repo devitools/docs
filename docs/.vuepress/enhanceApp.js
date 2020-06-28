@@ -11,4 +11,16 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
+  router.beforeEach((to, from, next) => {
+    if (to.path !== '/') {
+      next()
+      return
+    }
+    const pieces = from.path.split('/')
+    let lang = '/pt'
+    if (pieces.length > 2) {
+      lang = `/${pieces[1]}`
+    }
+    next(lang)
+  })
 }

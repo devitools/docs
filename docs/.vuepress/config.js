@@ -1,4 +1,3 @@
-const { description } = require('../../package')
 const en = require('../en/setup')
 const pt = require('../pt/setup')
 
@@ -7,10 +6,6 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Devitools',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -29,12 +24,12 @@ module.exports = {
     '/en/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Devitools',
-      description: 'Create admin panels with few lines of code'
+      description: 'Create admin panels quickly, efficiently and standardized'
     },
     '/pt/': {
       lang: 'pt-BR',
       title: 'Devitools',
-      description: 'Crie painéis de controle com poucas linhas código'
+      description: 'Crie painéis de controle de forma rápida, eficiente e padronizada'
     }
   },
 
@@ -46,7 +41,7 @@ module.exports = {
   themeConfig: {
     repo: 'https://github.com/devitools/docs',
     editLinks: true,
-    docsDir: '',
+    docsDir: 'docs',
     lastUpdated: true,
     locales: {
       '/en/': en,

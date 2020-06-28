@@ -1,0 +1,22 @@
+version: '3'
+
+networks:
+  reverse-proxy:
+    external:
+      name: reverse-proxy
+
+services:
+  docs.devi.tools:
+    image: webdevops/nginx:7.3
+    container_name: docs.devi.tools
+    restart: always
+    networks:
+      - reverse-proxy
+    volumes:
+      - .:/var/www/app
+    environment:
+      - VIRTUAL_HOST=docs.devi.tools
+      - WEB_DOCUMENT_ROOT=/var/www/app/public
+      - WEB_DOCUMENT_INDEX=index.html
+      - LETSENCRYPT_EMAIL=wilcorrea@gmail.com
+      - LETSENCRYPT_HOST=docs.devi.tools
