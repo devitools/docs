@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 heroText: null
-tagline: Crie painéis de controle de forma rápida, eficiente e padronizada
+tagline: Crie painéis de controle com poucas linhas código de forma rápida, eficiente e padronizada
 actionText: Conheça Agora →
 actionLink: /pt/guide/
 features:

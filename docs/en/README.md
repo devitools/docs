@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 heroText: null
-tagline: Create admin panels quickly, efficiently and standardized
+tagline: Create control panels with few lines of code quickly, efficiently and standardized
 actionText: Get Started →
 actionLink: /en/guide/
 features:
