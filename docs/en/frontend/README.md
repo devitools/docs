@@ -1,16 +1,14 @@
 # Frontend
 
-A ideia do Devitools é entregar uma experiência RAD \(Rapid Application Development\) centralizando operações 
-rotineiras e deixando para o desenvolvedor apenas as regras de negócio. Atuando apenas na lógica do negócio, o 
-desenvolvedor trabalha na configuração dos estados e comportamentos que serão exibidos na tela. 
-Em seguida ele cria um `Controller Component` que irá passar essas configurações para o `Container Component`. 
+A ideia do Devitools é entregar uma experiência RAD \(Rapid Application Development\) centralizando operações rotineiras e deixando para o desenvolvedor apenas as regras de negócio. Atuando apenas na lógica do negócio, o desenvolvedor trabalha na configuração dos estados e comportamentos que serão exibidos na tela.  Em seguida ele cria um `Controller Component` que irá passar essas configurações para o `Container Component`. 
 Este último irá se comunicar com os `Specialist Components` para renderizar as telas.
 
 ![](/image-25.png)
 
 ## Quando é interessante usar essa metodologia?
 
-Pelos nossos estudos e experiências a metodologia usada na construção do Skeleton tende à ser mais eficiente em aplicações que sejam painéis de controle com muitas e muitas telas com a mesma estrutura. O custo de criar um `Container Component` é relativamente alto e se a aplicação tiver telas muito diferentes em cada ambiente não vale à pena o investimento. Em contrapartida se a aplicação tiver dezenas de forms e tables no padrão que já é suportado a produtividade será absurdamente alta.
+Pelos nossos estudos e experiências a metodologia usada na construção do Skeleton tende à ser mais eficiente em 
+aplicações que sejam painéis de controle com muitas e muitas telas com a mesma estrutura. O custo de criar um `Container Component` é relativamente alto e se a aplicação tiver telas muito diferentes em cada ambiente não vale à pena o investimento. Em contrapartida se a aplicação tiver dezenas de forms e tables no padrão que já é suportado a produtividade será absurdamente alta.
 
 ## Meu projeto vai ficar mais complexo?
 
