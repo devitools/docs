@@ -15,4 +15,4 @@ Devitools tem a proposta de absorver as partes rotineiras da programação comum
 que são processados por um motor que processa o modelo em tempo de execução.
 
 Como os modelos são escritos em linguagens nativas, o Devitools aplica o modelo em frameworks de mercado, funcionando
-como um proxy para os recursos do framework abstraindo as rotinas sem engessar ou dificultar o acesso à elas.
+como um _proxy_ para os recursos do framework abstraindo as rotinas sem engessar ou dificultar o acesso à elas.
