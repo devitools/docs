@@ -10,9 +10,9 @@ Crie painéis de controle de forma rápida, eficiente e padronizada.
 [![Twitter](https://img.shields.io/twitter/follow/devitools?label=Siga%20%40devitools)](https://twitter.com/devitools)
 
 [![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fdocs.devi.tools%2F&color=34CB79)](https://docs.devi.tools/)
-[![Contributors](https://img.shields.io/github/contributors/devitools/docs?color=34CB79)](https://github.com/devitools/quasar/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/devitools/docs?color=34CB79)](https://github.com/devitools/docs/graphs/contributors)
 [![License](https://img.shields.io/github/license/devitools/docs?color=34CB79)](https://github.com/devitools/docs/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/devitools/docs?color=34CB79)](https://github.com/devitools/quasar/issues)
+[![Issues](https://img.shields.io/github/issues/devitools/docs?color=34CB79)](https://github.com/devitools/docs/issues)
 
 </div>
 
