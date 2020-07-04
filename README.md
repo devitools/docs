@@ -18,7 +18,7 @@ Crie painéis de controle de forma rápida, eficiente e padronizada.
 
 ## 👍 Contribuir
 
-Fique livre para abrir uma [_issue_](https://github.com/devitools/quasar/issues).
+Fique livre para abrir uma [_issue_](https://github.com/devitools/docs/issues).
 
 - Abra uma _issue_;
 - Faça um _fork_ do projeto;
