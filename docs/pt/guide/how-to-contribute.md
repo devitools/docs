@@ -1,11 +1,12 @@
 # Como Contribuir
 
-🔧 Roteiro de tarefas do projeto
+Como em qualquer projeto _open source_, toda colaboração da comunidade é sempre bem vinda.
 
-**Devitools** é uma iniciativa _open source_ de criação de tecnologias que simplifiquem em certo aspeto a produção de _software_, proporcionando um ambiente _RAD_ para uso de várias ferramentas.
+<!--**Devitools** é uma iniciativa _open source_ de criação de tecnologias que simplifiquem em certo aspeto a produção de _software_, proporcionando um ambiente _RAD_ para uso de várias ferramentas.-->
 
-Use o quadro abaixo para acompanhar o andamento das tarefas do projeto:
-:point_right: [Quadro Kanban](https://github.com/orgs/devitools/projects/1)
+Afim de uma melhor divisão das tarefas e acompanhamento do projeto, foi criado um quadro kanban para as atividades da organização.
+
+:point_right: [Quadro de Tarefas](https://github.com/orgs/devitools/projects/1)
 
 ### _Landing page_
 
@@ -26,7 +27,7 @@ A documentação explica como usar e apresenta os conceitos básicos da ideia po
 No _demo online_ é implementado um projeto de demonstração que possui um cadastro de produtos e serviços, além da gestão de contas a receber e a pagar.
 Sua finalidade é apresentar num exemplo funcional casos de uso do devitools.
 
-Nosso exemplo atualmente usa Laravel para o backend e Quasar para o frontend.
+Nosso exemplo atualmente usa Laravel para o _backend_ e Quasar para o _frontend_.
 
 :point_right: [Repositório do laravel-quasar-starter-kit](https://github.com/devitools/laravel-quasar-starter-kit)
 <br>
