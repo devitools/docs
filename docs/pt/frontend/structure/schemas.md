@@ -37,7 +37,7 @@ Para determinar os componentes que serão usados pelos campos temos:
 * `fieldIsText`: determina que o campo usará um componente de textarea parecido com um bloco de notas;
 * `fieldIsCheckbox`: determina que o campo usará um componente de checkbox;
 * `fieldIsRadio`: determina que o campo usará um componente de radio button, passando os valores através de parâmetro;
-* `fieldIsSelect`: ;
+* `fieldIsSelect`: determina que o campo usará um componente de select;
 * `fieldIsSelectRemote`: ;
 * `fieldIsSelectRemoteMultiple`: ;
 * `fieldIsToggle`: ;
